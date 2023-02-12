@@ -13,10 +13,6 @@ makepkg -si --noconfirm
 paru -S --noconfirm aic94xx-firmware wd719x-firmware zramd snap-pac-grub snapper-gui
 paru -S --noconfirm it87-dkms-git  # samo na ST dekstop
 
-
-#/media/btrfs/nc/Documents/Ivo/Linux/Arch\ Install/Scripts/Arch/Desktop/* /home/ivo/install/
-#/media/btrfs/nc/Documents/Ivo/Linux/Arch\ Install/Scripts/Arch/Omen/* /home/ivo/install/
-
 # ---------------------------------REBOOT--------------------------------------
 
 sleep 1
