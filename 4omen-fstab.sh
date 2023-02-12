@@ -23,6 +23,9 @@ sudo sed -i '$ a #WINDOWS' /etc/fstab
 sudo sed -i '$ a # \t\t /dev/sda4 - Windows SSD' /etc/fstab
 sudo sed -i '$ a UUID=4A10DEA710DE9971\t/media/ntfs/w-ssd\tntfs-3g\tdefaults,rw,relatime,hide_hid_files\t0\t0' /etc/fstab
 
+
+/media/btrfs/nc/Documents/Ivo/Linux/Arch\ Install/Scripts/Arch/Omen/* /home/ivo/arch/
+
 # ---------------------------------REBOOT--------------------------------------
 rm 4omen-fstab.sh
 reboot
