@@ -85,6 +85,8 @@ systemctl mask hibernate.target hybrid-sleep.target
 
 chmod +x 2paru.sh
 chmod +x 3snapper.sh
+chmod +x 4omen-fstab.sh
+chmod +x 4st-fstab.sh
 mv /arch /home/ivo
 chmod ivo:ivo /home/ivo/arch
 
