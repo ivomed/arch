@@ -23,7 +23,7 @@ sudo sed -i '$ a # \t\t /dev/nvme0n1p4 - Windows SSD' /etc/fstab
 sudo sed -i '$ a UUID=A46CC7B66CC78212\t/media/ntfs/w-ssd\tntfs-3g\tdefaults,rw,relatime,hide_hid_files\t0\t0' /etc/fstab
 
 
-/media/btrfs/nc/Documents/Ivo/Linux/Arch\ Install/Scripts/Arch/Desktop/* /home/ivo/arch/
+rsync /media/btrfs/nc/Documents/Ivo/Linux/Arch\ Install/Scripts/Arch/Desktop/* /home/ivo/arch/
 
 # ---------------------------------REBOOT--------------------------------------
 rm 4st-fstab.sh
